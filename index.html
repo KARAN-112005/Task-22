@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="font-serif">
+    <div class="navbar sticky top-0 z-50 flex w-screen h-[8vh] items-center pl-[12vh] pr-[12vh] justify-between bg-white">
+        <div class="logo">
+            <h2>✦ Project</h2>
+        </div>
+
+        <div class="navbar-right flex items-center">
+            <nav class="nav-links ">
+                <a class="mr-10 text-gray-600" href="">Product</a>
+                <a class="mr-10 text-gray-600" href="">Solutions</a>
+                <a class="mr-10 text-gray-600" href="">Resources</a>
+                <a class="mr-10 text-gray-600" href="">Pricing</a>
+                <a class="mr-10" href="">Log in</a>
+            </nav>
+
+            <div class="Btn">
+                <button class="btn bg-black text-white text-[13px] h-[5vh] w-[100px]">Get AI free</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero gradinet relative flex flex-col items-center bg-gradient-to-t to-orange-100 from-white pt-5 pl-[12vh] pr-[12vh] h-[92vh]">
+        <div class="heading flex flex-col items-center mb-[30px]">
+            <h1 class="text-5xl mb-[30px]">Write, plan, share.<br>With AI at your side</h1>
+            <p class="para">It is the connected workspace where better, fastrer work happens. Now with AI.</p>
+        </div>
+        <div class="hero-btn mb-[50px]">
+            <button class="cta-btn h-[5vh] w-[140px] bg-black text-white text-[14px] mr-[5px]">Get AI free →</button>
+            <button class="cta-btn h-[5vh] w-[160px] bg-blue-700 text-white text-[14px]">Request a demo</button>
+        </div>
+        <div class="img">
+            <img class="h-[200px]" src="img/image.png">
+        </div>
+
+        <div class="flot-info">
+            <div class="info flex justify-center flex-col p-2 bg-white h-[7vh] w-[160px] shadow-xl/20 absolute bottom-75 left-50 z-50">
+                <div class="flex items-center">
+                    <div class="bg-pink-100 h-[25px] width-[30px] mr-1">📋</div>
+                    <div class="text-sm">Task</div>
+                </div>
+                <div class="text-xs pl-1 text-gray-600">12 tasks completed today</div>
+            </div>
+            <div class="info flex justify-center flex-col p-2 bg-white h-[7vh] w-[150px] shadow-xl/20 absolute bottom-85 right-40 z-50">
+                <div class="flex items-center text-sm">
+                    <div class="bg-green-100 h-[15px] width-[20px] mr-1"><ion-icon name="checkmark-outline"></ion-icon></div>
+                    <div>Project Status</div>
+                </div>
+                <div class="text-xs text-green-600">
+                    On Track
+                </div>
+            </div>
+            <div class="info flex justify-center flex-col p-2 bg-white h-[7vh] w-[150px] shadow-xl/20 absolute bottom-48 right-50 z-50">
+                <div class="text-sm">Team Activity</div>
+                <div class="flex items-center text-xs">
+                    <div class="mr-1"><img class="h-[20px] w-[20px] bg-cover bg-center rounded-[50%]" src="img/people.jpg"></div>
+                    <div class="text-gray-600">+5 online</div>
+                </div>
+        </div>
+
+
+        <div class="chat flex h-[40px] w-[45px] items-center justify-center bg-black fixed bottom-6 right-6 z-50">
+            <ion-icon class="text-white text-[20px]" name="chatbubble"></ion-icon>
+        </div>
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
+
+<!-- npx @tailwindcss/cli -i input.css -o output.css --watch -->
